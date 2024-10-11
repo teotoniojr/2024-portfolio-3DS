@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 :root{
     --fonte-principal: "Playfair Display", serif;
@@ -18,4 +14,8 @@
 body{
     font-family: var(--fonte-principal);
     background-color: var(--azul);
+}
+
+h1,h3{
+    font-family: var(--fonte-secundaria);
 }
